@@ -16,7 +16,7 @@ const HeroSection = () => {
           
           {/* Company Name - Now properly centered and responsive */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-4 md:mb-6 w-full max-w-4xl mx-auto px-4">
-            Your Company Name
+            Eclatvents
           </h1>
           
           {/* Description - Properly centered with better responsive sizing */}

@@ -16,7 +16,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-white shadow-lg px-20 sticky top-0 z-50">
+        <nav className="bg-[#fdf9ed] shadow-lg px-20 sticky top-0 z-50">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
                     {/* Logo/Image on the left */}
@@ -28,7 +28,7 @@ const Navbar = () => {
                         >
                             <img
                                 className="h-15 w-auto hover:opacity-80 transition-opacity duration-200"
-                                src="../resources/logos/Logo HD Transparent.png"
+                                src="/logos/Logo HD.png"
                                 alt="Company Logo"
                             />
                         </button>
