@@ -6,7 +6,7 @@ const people = [
         name: "Vedant Chawla",
         designation: "Software Engineer",
         image:
-            "../src/assets/ved.jpeg",
+            "/team/ved.jpeg",
     },
     {
         id: 2,
@@ -27,14 +27,14 @@ const people = [
         name: "Suryansu Singh",
         designation: "Website and UI Developer",
         image:
-            "https://drive.google.com/file/d/1XRqEJsTX-iJCGxE1I1fGmR7vFRZBOyZe/view?usp=sharing",
+            "/team/sky.jpeg",
     }
 ];
 
 const TeamSection = () => {
     return (
         <div>
-            <h2 className='text-4xl font-bold text-center mb-10'>Out Team</h2>
+            <h2 className='text-4xl font-bold text-center mb-10'>Our Team</h2>
             <div className="flex flex-row items-center justify-center mb-10 w-full">
                 <AnimatedTooltip items={people} />
             </div>
