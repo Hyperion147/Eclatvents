@@ -27,7 +27,7 @@ const people = [
         name: "Suryansu Singh",
         designation: "Website and UI Developer",
         image:
-            "../src/assets/sky.jpeg",
+            "https://drive.google.com/file/d/1XRqEJsTX-iJCGxE1I1fGmR7vFRZBOyZe/view?usp=sharing",
     }
 ];
 
