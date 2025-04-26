@@ -6,7 +6,7 @@ const people = [
         name: "Vedant Chawla",
         designation: "Software Engineer",
         image:
-            "../resources/team/ved.jpeg",
+            "../src/assets/ved.jpeg",
     },
     {
         id: 2,
@@ -27,7 +27,7 @@ const people = [
         name: "Suryansu Singh",
         designation: "Website and UI Developer",
         image:
-            "../resources/team/sky.jpeg",
+            "../src/assets/sky.jpeg",
     }
 ];
 
