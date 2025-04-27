@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection'
 import AboutSection from './components/AboutSection'
 import FooterSection from './components/FooterSection'
 import TeamSection from './components/TeamSection'
+import Story from './components/Story'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <Story />
       <TeamSection />
       <FooterSection />
     </>

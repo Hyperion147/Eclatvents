@@ -2,86 +2,77 @@ import React from 'react';
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-[#fcf1d0]">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12">
-          {/* Left Column - Text Content */}
           <div className="md:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Our Story
+              Brand Overview
             </h2>
-            <p className="text-lg text-gray-600 mb-6">
-              Founded in 2010, we started as a small team with big dreams. Our journey has been 
-              marked by innovation, dedication, and a commitment to excellence in everything we do.
+            <h4 className='text-lg font-bold'>Mission</h4>
+            <p className="text-gray-600 mb-6">
+              To create seamless, stress-free event experiences so our clients can fully enjoy their special moments and cherish lifelong memories.
             </p>
-            <p className="text-lg text-gray-600 mb-8">
-              Today, we're proud to serve thousands of customers worldwide, delivering 
-              exceptional quality and service that sets us apart in our industry.
+            <h4 className='text-lg font-bold'>Vision</h4>
+            <p className="text-gray-600 mb-6">
+              To create seamless, stress-free event experiences so our clients can fully enjoy their special moments and cherish lifelong memories.
             </p>
-            <div className="space-y-4">
-              <div className="flex items-start">
-                <div className="flex-shrink-0 mt-1">
-                  <div className="w-5 h-5 bg-blue-500 rounded-full"></div>
-                </div>
-                <p className="ml-3 text-gray-600">
-                  <span className="font-bold text-gray-900">2010:</span> Company founded
-                </p>
-              </div>
-              <div className="flex items-start">
-                <div className="flex-shrink-0 mt-1">
-                  <div className="w-5 h-5 bg-blue-500 rounded-full"></div>
-                </div>
-                <p className="ml-3 text-gray-600">
-                  <span className="font-bold text-gray-900">2015:</span> Reached 1000 customers
-                </p>
-              </div>
-              <div className="flex items-start">
-                <div className="flex-shrink-0 mt-1">
-                  <div className="w-5 h-5 bg-blue-500 rounded-full"></div>
-                </div>
-                <p className="ml-3 text-gray-600">
-                  <span className="font-bold text-gray-900">2020:</span> Expanded internationally
-                </p>
-              </div>
-            </div>
+            <h4 className='text-lg font-bold'>Tagline</h4>
+            <p className="text-gray-600 mb-6">
+              "Turning Occasions into Masterpieces."
+            </p>
           </div>
 
-          {/* Right Column - Images */}
           <div className="md:w-1/2">
             <div className="grid grid-cols-2 gap-4">
-              <div className="rounded-lg overflow-hidden shadow-lg">
-                <img 
-                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-                  alt="Our team" 
-                  className="w-full h-64 object-cover"
-                />
-              </div>
-              <div className="rounded-lg overflow-hidden shadow-lg">
-                <img 
-                  src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-                  alt="Our office" 
-                  className="w-full h-64 object-cover"
-                />
-              </div>
-              <div className="rounded-lg overflow-hidden shadow-lg">
-                <img 
-                  src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-                  alt="Team meeting" 
-                  className="w-full h-64 object-cover"
-                />
-              </div>
-              <div className="rounded-lg overflow-hidden shadow-lg">
-                <img 
-                  src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-                  alt="Company event" 
-                  className="w-full h-64 object-cover"
-                />
-              </div>
+              {/* Image 1 with Instagram Link */}
+              <a href="https://www.instagram.com/eclatvents/p/DHatoWHBrAE/" target="_blank" rel="noopener noreferrer">
+                <div className="rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                  <img
+                    src="/logos/img1.jpeg"
+                    alt="Img 1"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+              </a>
+
+              {/* Image 2 with Instagram Link */}
+              <a href="https://www.instagram.com/eclatvents/p/DIndXwrhu1z" target="_blank" rel="noopener noreferrer">
+                <div className="rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                  <img
+                    src="/logos/img2.jpeg"
+                    alt="Img 2"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+              </a>
+
+              {/* Image 3 with Instagram Link */}
+              <a href="https://www.instagram.com/eclatvents/p/DH5aRnGhmuA/" target="_blank" rel="noopener noreferrer">
+                <div className="rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                  <img
+                    src="/logos/img3.jpeg"
+                    alt="Img 3"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+              </a>
+
+              {/* Image 4 with Instagram Link */}
+              <a href="https://www.instagram.com/eclatvents/p/DIJPuZThDBQ" target="_blank" rel="noopener noreferrer">
+                <div className="rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                  <img
+                    src="/logos/img4.jpeg"
+                    alt="Img 4"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 
