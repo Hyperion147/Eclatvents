@@ -3,7 +3,7 @@ import { FaInstagram } from 'react-icons/fa';
 
 const FooterSection = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8 px-4">
+    <footer id='contact' className="bg-gray-900 text-white py-8 px-4">
       <div className="container mx-auto">
         {/* Single responsive layout */}
         <div className="flex flex-row md:flex-row justify-between items-center gap-6">
