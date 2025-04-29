@@ -11,7 +11,7 @@ const Story = () => {
           Backstory
         </h2>
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 leading-relaxed sm:leading-loose">
-          Eclatvents was born from a personal experience of chaos during a family wedding. 
+          EclatVents was born from a personal experience of chaos during a family wedding. 
           Realizing how much time and joy was lost in the stress of planning, we set out to 
           create a one-stop solution for events—handling everything from weddings to trips, 
           so you can focus on living the moment.

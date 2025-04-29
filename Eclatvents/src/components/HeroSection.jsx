@@ -31,14 +31,14 @@ const HeroSection = () => {
         <div className='flex justify-center pb-6 md:pb-10'>
           <img 
             src="/logos/Tulip.png" 
-            alt="Eclatvents Logo" 
+            alt="EclatVents Logo" 
             className='w-24 md:w-32 h-auto' 
           />
         </div>
 
         <div className="flex flex-col items-center text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[80px] font-bold text-black mb-4 md:mb-6 px-4 leading-tight">
-            <span className="block uppercase tracking-wide">Eclatvents</span>
+            <span className="block uppercase tracking-wide">EclatVents</span>
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-800 mb-6 sm:mb-8 md:mb-10 max-w-[90%] sm:max-w-2xl mx-auto px-2 leading-relaxed">

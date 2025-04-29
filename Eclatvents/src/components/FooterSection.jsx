@@ -56,7 +56,7 @@ const FooterSection = () => {
 
         {/* Copyright - full width */}
         <div className="border-t border-gray-800 mt-6 pt-4 text-center text-xs md:text-sm">
-          <p>&copy; {new Date().getFullYear()} Eclatvents. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} EclatVents. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
