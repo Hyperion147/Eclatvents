@@ -9,7 +9,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-[75vh] md:min-h-[85vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[60vh] md:min-h-[65vh] flex items-center justify-center overflow-hidden">
       {/* Blurred Background with Fallback */}
       <div 
         className="absolute inset-0 bg-[#fdf9ed]"
@@ -47,7 +47,7 @@ const HeroSection = () => {
 
           <button
             onClick={scrollToAbout}
-            className="bg-black hover:bg-[#b78f52] text-white font-semibold py-2 px-6 sm:py-3 sm:px-8 rounded-full transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500/50 active:scale-95 shadow-md hover:shadow-lg mt-12 sm:mt-16 md:mt-20"
+            className="bg-black hover:bg-[#b78f52] text-white font-semibold py-2 px-6 sm:py-3 sm:px-8 rounded-full transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500/50 active:scale-95 shadow-md hover:shadow-lg mt-8 sm:mt-12 md:mt-12"
           >
             Learn More
           </button>

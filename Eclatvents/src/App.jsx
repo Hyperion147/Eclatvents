@@ -6,15 +6,17 @@ import FooterSection from './components/FooterSection'
 import TeamSection from './components/TeamSection'
 import Story from './components/Story'
 import ImageSection from './components/ImageSection'
+import WhatsAppButton from './components/ui/whatsapp-button'
 
 function App() {
 
   return (
     <>
       <Navbar />
+      <WhatsAppButton />
       <HeroSection />
-      <AboutSection />
       <ImageSection />
+      <AboutSection />
       <Story />
       <TeamSection />
       <FooterSection />
