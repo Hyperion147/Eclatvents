@@ -10,18 +10,18 @@ const people = [
     },
     {
         id: 2,
+        name: "Suryansu Singh",
+        designation: "IT Manager and UX Developer",
+        image:
+        "/team/sky.jpg",
+    },
+    {
+        id: 3,
         name: "Saniya Dixit",
         designation: "Co-founder & PR Manager",
         image:
             "/team/sana.jpeg",
     },
-    {
-        id: 3,
-        name: "Suryansu Singh",
-        designation: "IT Manager and UX Developer",
-        image:
-            "/team/sky.jpeg",
-    }
 ];
 
 const TeamSection = () => {
