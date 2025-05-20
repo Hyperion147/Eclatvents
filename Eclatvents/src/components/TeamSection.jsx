@@ -17,13 +17,6 @@ const people = [
     },
     {
         id: 3,
-        name: "Sneha Chouhan",
-        designation: "HR Manager",
-        image:
-            "/team/sneha.jpeg",
-    },
-    {
-        id: 4,
         name: "Suryansu Singh",
         designation: "IT Manager and UX Developer",
         image:
